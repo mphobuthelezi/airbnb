@@ -1,0 +1,63 @@
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  width: 100%;
+}
+
+.header_logo {
+  height: 40px;
+  object-fit: contain;
+}
+
+.header_center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  color: white;
+  gap: 32px;
+}
+
+.header_center p {
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.header_center p::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+.header_center p:hover::after {
+  transform: scaleX(1);
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+
+.header_dropdowns {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 8px 16px;
+  gap: 8px;
+  cursor: pointer;
+}
