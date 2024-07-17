@@ -1,16 +1,12 @@
 import React from 'react';
-import Header from '../../components/AdminComponents/Footer';
-import Footer from '../../components/AdminComponents/Footer';
 import './SearchResultsPage.css';
+import StandardHeaderSearch from '../../components/StandardHeaderSearch/StandardHeaderSearch';
+
 
 function SearchResultsPage() {
   return (
     <div>
-      <Header />
-      <div className="search-results-page">
-        {/* Search results will go here */}
-      </div>
-      <Footer />
+    <StandardHeaderSearch />
     </div>
   );
 }

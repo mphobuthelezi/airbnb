@@ -10,16 +10,22 @@ import ReviewSection from '../../components/ReviewSection/ReviewSection';
 import CalendarSection from '../../components/CalendarSection.js/CalendarSection';
 import AmenitiesSection from '../../components/AmenitiesSection/AmenitiesSection';
 import SleepSection from '../../components/SleepSection/SleepSection';
+import ListingCardComponent from '../../components/ListingCardComponent/ListingCardComponent';
+import ImageGallery from '../../components/ImageGallery/ImageGallery';
+import SearchBox from '../../components/Search/SearchBox';
+// import ListingImages from '../../components/ListingImages/ListingImages';
 
 
 function ListingPage() {
   return (
     <div>
-      {/* <Header /> */}
+      <SearchBox />
       <div className="listing-page">
         {/* <Listings /> */}
       </div>
-     
+      {/* <ListingImages /> */}
+      <ImageGallery />
+      <ListingCardComponent />
       <SleepSection />
       <AmenitiesSection />
       <CalendarSection />

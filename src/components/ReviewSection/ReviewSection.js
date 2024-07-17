@@ -14,27 +14,27 @@ const ReviewSection = () => {
         </div>
         <div className="rating-item">
           <p>Communication</p>
-          <div className="rating-bar"><div className="rating-fill" style={{ width: '100%' }}></div></div>
+          <div className="rating-bar"><div className="rating-fill" style={{ width: '70%' }}></div></div>
           <p>5.0</p>
         </div>
         <div className="rating-item">
           <p>Check-in</p>
-          <div className="rating-bar"><div className="rating-fill" style={{ width: '100%' }}></div></div>
+          <div className="rating-bar"><div className="rating-fill" style={{ width: '58%' }}></div></div>
           <p>5.0</p>
         </div>
         <div className="rating-item">
           <p>Accuracy</p>
-          <div className="rating-bar"><div className="rating-fill" style={{ width: '100%' }}></div></div>
+          <div className="rating-bar"><div className="rating-fill" style={{ width: '99%' }}></div></div>
           <p>5.0</p>
         </div>
         <div className="rating-item">
           <p>Location</p>
-          <div className="rating-bar"><div className="rating-fill" style={{ width: '98%' }}></div></div>
+          <div className="rating-bar"><div className="rating-fill" style={{ width: '60%' }}></div></div>
           <p>4.9</p>
         </div>
         <div className="rating-item">
           <p>Value</p>
-          <div className="rating-bar"><div className="rating-fill" style={{ width: '94%' }}></div></div>
+          <div className="rating-bar"><div className="rating-fill" style={{ width: '74%' }}></div></div>
           <p>4.7</p>
         </div>
       </div>
@@ -42,47 +42,47 @@ const ReviewSection = () => {
       <div className="reviews-container">
         <div className="reviews-left">
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 1" className="reviewer-image" />
+            <img src="https://tse4.mm.bing.net/th?id=OIP.0yi26fO0azz9oRCE5I59zgHaE8&pid=Api&P=0&h=220" alt="Reviewer 1" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Jose</strong> · December 2021</p>
+              <p><strong>Jose</strong> · December 2024</p>
               <p>Host was very attentive.</p>
             </div>
           </div>
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 2" className="reviewer-image" />
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.LC5QeewTlOYRlb0-6cg4vAHaNK&pid=Api&P=0&h=220" alt="Reviewer 2" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Shayna</strong> · December 2021</p>
+              <p><strong>Mpho</strong> · December 2024</p>
               <p>Wonderful neighborhood, easy access to restaurants and the subway, cozy studio apartment with a super comfortable bed. Great host, super helpful and responsive. Cool murphy bed...</p>
               <button className="show-more-button">Show more</button>
             </div>
           </div>
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 3" className="reviewer-image" />
+            <img src="https://tse4.mm.bing.net/th?id=OIP.OYGQMo9Rp4aMkzniqdnk3AAAAA&pid=Api&P=0&h=220" alt="Reviewer 3" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Vladko</strong> · November 2020</p>
+              <p><strong>Lawrence</strong> · November 2024</p>
               <p>This is an amazing place. It has everything one needs for a monthly business stay. Very clean and organized place. Amazing hospitality at an affordable price.</p>
             </div>
           </div>
         </div>
         <div className="reviews-right">
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 4" className="reviewer-image" />
+            <img src="https://i.pinimg.com/originals/25/78/61/25786134576ce0344893b33a051160b1.jpg" alt="Reviewer 4" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Luke</strong> · December 2021</p>
+              <p><strong>Dakalo</strong> · December 2024</p>
               <p>Nice place to stay!</p>
             </div>
           </div>
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 5" className="reviewer-image" />
+            <img src="https://avatarfiles.alphacoders.com/103/103875.png" alt="Reviewer 5" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Josh</strong> · November 2021</p>
+              <p><strong>Josh</strong> · November 2024</p>
               <p>Well designed and fun space, neighborhood has lots of energy and amenities.</p>
             </div>
           </div>
           <div className="review">
-            <img src="https://www.disneyplusinformer.com/wp-content/uploads/2021/06/Luca-Profile-Avatars-3.png" alt="Reviewer 6" className="reviewer-image" />
+            <img src="https://tse3.mm.bing.net/th?id=OIP.xRT4Iunhn8opElpH3uZrBAHaGo&pid=Api&P=0&h=220" alt="Reviewer 6" className="reviewer-image" />
             <div className="review-text">
-              <p><strong>Jennifer</strong> · January 2022</p>
+              <p><strong>Jennifer</strong> · January 2024</p>
               <p>A centric place, near a sub station and a supermarket with everything you need...</p>
               <button className="show-more-button">Show more</button>
             </div>
