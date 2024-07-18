@@ -9,6 +9,7 @@ import Modal from './components/Modal';
 import ReservationsListPages from './Pages/ReservationsListPages/ReservationsListPages';
 import LoginPage from './Pages/LoginPage/LoginPage';
 import LuxeSearchPage from './Pages/LuxeSearchPage/LuxeSearchPage';
+import ListingHotelPage from './Pages/ListingHotelPage/ListingHotelPage';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -30,6 +31,7 @@ function App() {
           <Route path="/reservationsListPages" element={<ReservationsListPages />} />
           <Route path="/loginPage" element={<LoginPage />} />
           <Route path="/luxeSearchPage" element={<LuxeSearchPage />} />
+          <Route path="/listingHotelPage" element={<ListingHotelPage />} />
         </Routes>
       </div>
     </Router>
