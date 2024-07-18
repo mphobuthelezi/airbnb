@@ -8,6 +8,7 @@ import AdminHotel from './Pages/AdminPages/AddHotel'
 import Modal from './components/Modal';
 import ReservationsListPages from './Pages/ReservationsListPages/ReservationsListPages';
 import LoginPage from './Pages/LoginPage/LoginPage';
+import LuxeSearchPage from './Pages/LuxeSearchPage/LuxeSearchPage';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,6 +29,7 @@ function App() {
           <Route path="/admin/02" element={<AdminHotel />} />
           <Route path="/reservationsListPages" element={<ReservationsListPages />} />
           <Route path="/loginPage" element={<LoginPage />} />
+          <Route path="/luxeSearchPage" element={<LuxeSearchPage />} />
         </Routes>
       </div>
     </Router>
