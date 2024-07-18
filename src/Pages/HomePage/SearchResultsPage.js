@@ -1,12 +1,18 @@
 import React from 'react';
 import './SearchResultsPage.css';
-import StandardHeaderSearch from '../../components/StandardHeaderSearch/StandardHeaderSearch';
+import ListingSearchPage from '../../components/ListingSearchPage/ListingSearchPage';
+import SearchBox from '../../components/Search/SearchBox';
+import FilterSection from '../../components/FilterSection/FilterSection';
+// import StandardHeaderSearch from '../../components/StandardHeaderSearch/StandardHeaderSearch';
 
 
 function SearchResultsPage() {
   return (
     <div>
-    <StandardHeaderSearch />
+    {/* <StandardHeaderSearch /> */}
+    <SearchBox />
+    <FilterSection />
+    <ListingSearchPage />
     </div>
   );
 }
