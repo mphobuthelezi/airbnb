@@ -5,7 +5,7 @@ import ListingPage from './Pages/HomePage/ListingPage';
 import SearchResultsPage from '../src/Pages/HomePage/SearchResultsPage';
 import AdminDashboard from './Pages/AdminPages/AdminDashboard';
 import AdminHotel from './Pages/AdminPages/AddHotel' 
-import Modal from './components/Modal';
+// import Modal from './components/Modal';
 import ReservationsListPages from './Pages/ReservationsListPages/ReservationsListPages';
 import LoginPage from './Pages/LoginPage/LoginPage';
 import LuxeSearchPage from './Pages/LuxeSearchPage/LuxeSearchPage';
@@ -20,8 +20,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <button onClick={openModal}>Open Modal</button> 
-        {isModalOpen && <Modal closeModal={closeModal} />}
+        {/* <button onClick={openModal}>Open Modal</button> 
+        {isModalOpen && <Modal closeModal={closeModal} />} */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/listing/:id" element={<ListingPage />} />

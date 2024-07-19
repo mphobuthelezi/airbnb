@@ -33,6 +33,9 @@
     height: auto;
   }
   
+  .city-card  img {
+    height: 100%;
+  }
   .card-info {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -45,18 +48,22 @@
   
   .sandton-city .card-info {
     background-color: #D32F2F;
+    height: 100px;
   }
   
   .joburg-city .card-info {
     background-color: #7B1FA2;
+    height: 100px;
   }
   
   .woodmead .card-info {
     background-color: #0288D1;
+    height: 100px;
   }
   
   .hyde-park .card-info {
     background-color: #388E3C;
+    height: 100px;
   }
   
   .discover-experiences {
@@ -191,13 +198,13 @@
     border-radius: 4px;
   }
   
-  .pre-footer {
+  .pre-footers {
     width: 1280px;
     gap: 32px;
   }
   
-  .pre-footer h2 {
-    margin-bottom: 24px;
+  .pre-footers h2 {
+    margin-bottom: 14px;
   }
   
   .getaways-links {
@@ -238,7 +245,7 @@
   }
   
   /* Footer Section */
-  .footer {
+  .footers {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
@@ -246,30 +253,30 @@
     margin-top: 40px;
   }
   
-  .footer-section {
+  .footer-sections {
     flex: 1;
   }
   
-  .footer-section h4 {
+  .footer-sections h4 {
     font-size: 18px;
     margin-bottom: 16px;
   }
   
-  .footer-section ul {
+  .footer-sections ul {
     list-style: none;
     padding: 0;
   }
   
-  .footer-section ul li {
+  .footer-sections ul li {
     margin-bottom: 8px;
   }
   
-  .footer-section ul li a {
+  .footer-sections ul li a {
     color: #333;
     text-decoration: none;
   }
   
-  .footer-section ul li a:hover {
+  .footer-sections ul li a:hover {
     text-decoration: underline;
   }
   

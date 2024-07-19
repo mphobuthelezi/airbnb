@@ -16,21 +16,21 @@ const Inspiration = () => {
             </div>
           </div>
           <div className="city-card joburg-city">
-            <img src="https://s3-alpha-sig.figma.com/img/d5c1/6cba/8bc1958720a3d767d19d62a93cd1ff30?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C0Lyb4aos8pjrvvRGGzlY~MCbvauii1fp4jtdKLH~WH8FmLZlVs25us7d9AzOnVtaxmGTDAkXmCx1fS-CQzn5sXFBw~EdWDjp6J61G9gkurNMqM5LjhqKdPjB6wmkDscfp-5H8MHCrhnFV68I61IZWGSAP1a27H62nl291wSgxkgzIKAVhI5xBYdkmRnNTIHqQ13zRYoldV-87pPmetQQtRG6NeWO3KfURxRlbWrfLsqYyzb4CC7DGDcVR-qJveugU4oiYgZIRtFCqDClhBddzElphLgTgY1hqW3sWbhzxcJ~HChStJr4VIX4YKlYIHybnwAqw9GVza-mzFlTp0yzw__" alt="Joburg City Hotel" />
+            <img src="https://tse4.mm.bing.net/th?id=OIP.i8WYCi9tNoDTeNXlKKXoFgHaEA&pid=Api&P=0&h=220" alt="Joburg City Hotel" />
             <div className="card-info">
               <h3>Joburg City Hotel</h3>
               <p>168 km away</p>
             </div>
           </div>
           <div className="city-card woodmead">
-            <img src="https://s3-alpha-sig.figma.com/img/d5c1/6cba/8bc1958720a3d767d19d62a93cd1ff30?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C0Lyb4aos8pjrvvRGGzlY~MCbvauii1fp4jtdKLH~WH8FmLZlVs25us7d9AzOnVtaxmGTDAkXmCx1fS-CQzn5sXFBw~EdWDjp6J61G9gkurNMqM5LjhqKdPjB6wmkDscfp-5H8MHCrhnFV68I61IZWGSAP1a27H62nl291wSgxkgzIKAVhI5xBYdkmRnNTIHqQ13zRYoldV-87pPmetQQtRG6NeWO3KfURxRlbWrfLsqYyzb4CC7DGDcVR-qJveugU4oiYgZIRtFCqDClhBddzElphLgTgY1hqW3sWbhzxcJ~HChStJr4VIX4YKlYIHybnwAqw9GVza-mzFlTp0yzw__" alt="Woodmead Hotel" />
+            <img src="https://tse4.mm.bing.net/th?id=OIP.CWOlXNZhNC9zzxeXAGDTyAHaEK&pid=Api&P=0&h=220" alt="Woodmead Hotel" />
             <div className="card-info">
               <h3>Woodmead Hotel</h3>
               <p>30 miles away</p>
             </div>
           </div>
           <div className="city-card hyde-park">
-            <img src="https://s3-alpha-sig.figma.com/img/d5c1/6cba/8bc1958720a3d767d19d62a93cd1ff30?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C0Lyb4aos8pjrvvRGGzlY~MCbvauii1fp4jtdKLH~WH8FmLZlVs25us7d9AzOnVtaxmGTDAkXmCx1fS-CQzn5sXFBw~EdWDjp6J61G9gkurNMqM5LjhqKdPjB6wmkDscfp-5H8MHCrhnFV68I61IZWGSAP1a27H62nl291wSgxkgzIKAVhI5xBYdkmRnNTIHqQ13zRYoldV-87pPmetQQtRG6NeWO3KfURxRlbWrfLsqYyzb4CC7DGDcVR-qJveugU4oiYgZIRtFCqDClhBddzElphLgTgY1hqW3sWbhzxcJ~HChStJr4VIX4YKlYIHybnwAqw9GVza-mzFlTp0yzw__" alt="Hyde Park Hotel" />
+            <img src="https://tse3.mm.bing.net/th?id=OIP.VCrznv1DFYirVwc57CzFGQHaE7&pid=Api&P=0&h=220" alt="Hyde Park Hotel" />
             <div className="card-info">
               <h1>Hyde Park Hotel</h1>
               <p>34 km away</p>
@@ -81,7 +81,7 @@ const Inspiration = () => {
       </div>
 
       {/* Section 5: Pre-footer */}
-      <div className="pre-footer">
+      <div className="pre-footers">
         <h2>Inspiration for future getaways</h2>
         <div className="getaways-links">
           <a href="#">Destinations for arts & culture</a>
@@ -143,8 +143,8 @@ const Inspiration = () => {
       </div>
 
       {/* Section 6: Footer */}
-      <div className="footer">
-        <div className="footer-section">
+      <div className="footers">
+        <div className="footer-sections">
           <h4>Support</h4>
           <ul>
             <li><a href="#">Help Center</a></li>
@@ -155,7 +155,7 @@ const Inspiration = () => {
             <li><a href="#">Report a neighborhood concern</a></li>
           </ul>
         </div>
-        <div className="footer-section">
+        <div className="footer-sections">
           <h4>Community</h4>
           <ul>
             <li><a href="#">Airbnb.org: disaster relief housing</a></li>
@@ -164,7 +164,7 @@ const Inspiration = () => {
             <li><a href="#">Combating discrimination</a></li>
           </ul>
         </div>
-        <div className="footer-section">
+        <div className="footer-sections">
           <h4>Hosting</h4>
           <ul>
             <li><a href="#">Try hosting</a></li>
@@ -174,7 +174,7 @@ const Inspiration = () => {
             <li><a href="#">How to host responsibly</a></li>
           </ul>
         </div>
-        <div className="footer-section">
+        <div className="footer-sections">
           <h4>About</h4>
           <ul>
             <li><a href="#">Newsroom</a></li>

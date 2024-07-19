@@ -42,10 +42,18 @@
   .search-box-right p {
     margin-right: 20px;
     cursor: pointer;
+    
   }
   
   .search-box-right .MuiSvgIcon-root {
-    margin-right: 10px;
+    margin-right: 20px;
     cursor: pointer;
   }
+
+.search-box-right-icon{
+  border: solid 1px #ddd;
+  background-color: lightgray;
+  border-radius: 8px;
+  height: 35px;
+}
   

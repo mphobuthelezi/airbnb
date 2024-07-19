@@ -20,8 +20,10 @@ const SearchBox = () => {
       <div className="search-box-right">
         <p>Become a Host</p>
         <LanguageIcon />
+        <div className='search-box-right-icon'>
         <MenuIcon />
         <AccountCircleIcon />
+        </div>
       </div>
     </div>
   );

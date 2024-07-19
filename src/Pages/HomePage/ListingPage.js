@@ -13,6 +13,7 @@ import SleepSection from '../../components/SleepSection/SleepSection';
 import ListingCardComponent from '../../components/ListingCardComponent/ListingCardComponent';
 import ImageGallery from '../../components/ImageGallery/ImageGallery';
 import SearchBox from '../../components/Search/SearchBox';
+import PreFooter from '../../components/PreFooter/PreFooter';
 // import ListingImages from '../../components/ListingImages/ListingImages';
 
 
@@ -32,6 +33,7 @@ function ListingPage() {
       <ReviewSection />
       <Hosted />
       <ThingsToKnowSection />
+      <PreFooter />
       <ExploreSection />
       <Footer />
     </div>

@@ -7,7 +7,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-      <img src="logo.png" className="header_logo" alt="logo" />
+      <img src="http://pluspng.com/img-png/airbnb-logo-png-airbnb-logo-white-on-black-1600.png" className="header_logo" alt="logo" />
       <div className="header_center">
         <p>Places to stay</p>
         <p>Experiences</p>
@@ -17,7 +17,9 @@ function Header() {
         <p>Become a host</p>
         <LanguageIcon />
         <div className="header_dropdowns">
+          <div className='menu_icon'>
           <MenuIcon />
+          </div>
           <Avatar />
         </div>
       </div>
