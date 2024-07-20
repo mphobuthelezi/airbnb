@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './NavBar.css';
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -9,6 +10,8 @@ const NavBar = () => {
     checkOutDate: '',
     guests: ''
   });
+  
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,6 +19,10 @@ const NavBar = () => {
       ...prevFilters,
       [name]: value
     }));
+
+    if (name === 'location') {
+      navigate(value);
+    }
   };
 
   const handleSearch = () => {
@@ -28,13 +35,16 @@ const NavBar = () => {
       <div className="search-bar">
         <div className="search-section">
           <label>Hotels</label>
-          <input
-            type="text"
+          <select
             name="location"
             value={filters.location}
             onChange={handleChange}
-            placeholder="Select Hotel"
-          />
+          >
+            <option value="/" disabled>Select Hotel</option>
+            <option value="/admin/02">South Africa's Hotel</option>
+            <option value="/admin/02">Carletonville</option>
+            <option value="/admin/02">JHG</option>
+          </select>
         </div>
         <div className="search-section">
           <label>Check in</label>

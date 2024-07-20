@@ -110,16 +110,3 @@
     color: white;
   }
   
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  ul li {
-    background-color: #f1f1f1;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  

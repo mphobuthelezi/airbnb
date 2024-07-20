@@ -8,6 +8,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import CleanHandsIcon from '@mui/icons-material/CleanHands';
 import KeyIcon from '@mui/icons-material/VpnKey';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
+import { Link } from 'react-router-dom';
 
 const ListingCardComponent = ({ startDate, endDate, setStartDate, setEndDate }) => {
   return (
@@ -45,6 +46,7 @@ const ListingCardComponent = ({ startDate, endDate, setStartDate, setEndDate }) 
         </div>
 
         <div className="listing-actions">
+        
           <button className="share-button"><ShareIcon /> Share</button>
           <button className="save-button"><FavoriteBorderIcon /> Save</button>
         </div>
@@ -76,8 +78,9 @@ const ListingCardComponent = ({ startDate, endDate, setStartDate, setEndDate }) 
               <input type="number" min="1" max="10" defaultValue="2" />
             </div>
           </div>
-
+          <Link to="/reservationsListPages">
           <button className="reserve-button">Reserve</button>
+          </Link>
           <div className="pricing-breakdown">
             <div className="pricing-item">
               <p>$79 x 7 nights</p>

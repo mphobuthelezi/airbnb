@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from '../src/Pages/HomePage/HomePage';
 import ListingPage from './Pages/HomePage/ListingPage';
@@ -10,18 +10,17 @@ import ReservationsListPages from './Pages/ReservationsListPages/ReservationsLis
 import LoginPage from './Pages/LoginPage/LoginPage';
 import LuxeSearchPage from './Pages/LuxeSearchPage/LuxeSearchPage';
 import ListingHotelPage from './Pages/ListingHotelPage/ListingHotelPage';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  // const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openModal = () => setIsModalOpen(true);
-  const closeModal = () => setIsModalOpen(false);
+  // const openModal = () => setIsModalOpen(true);
+  // const closeModal = () => setIsModalOpen(false);
 
   return (
     <Router>
       <div className="App">
-        {/* <button onClick={openModal}>Open Modal</button> 
-        {isModalOpen && <Modal closeModal={closeModal} />} */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/listing/:id" element={<ListingPage />} />
@@ -30,6 +29,7 @@ function App() {
           <Route path="/admin/02" element={<AdminHotel />} />
           <Route path="/reservationsListPages" element={<ReservationsListPages />} />
           <Route path="/loginPage" element={<LoginPage />} />
+          <Route path="/signup" element={ <SignUp />} />
           <Route path="/luxeSearchPage" element={<LuxeSearchPage />} />
           <Route path="/listingHotelPage" element={<ListingHotelPage />} />
         </Routes>

@@ -1,5 +1,4 @@
 .footer {
-  /* background-color: #f7f7f7; */
   padding: 20px 40px;
   text-align: center;
   border-top: 1px solid #e7e7e7;
@@ -11,8 +10,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* margin-left: 300px; */
-  width: 100%; /* Make sure the footer bottom takes the full width */
+  width: 100%; 
 }
 
 .footer-bottom p {
@@ -43,13 +41,13 @@
 }
 
 .facebook-icon {
-  background-color: #3b5998; /* Facebook blue */
+  background-color: #3b5998; 
 }
 
 .twitter-icon {
-  background-color: #1da1f2; /* Twitter blue */
+  background-color: #1da1f2; 
 }
 
 .instagram-icon {
-  background-color: #e1306c; /* Instagram red/pink */
+  background-color: #e1306c; 
 }
