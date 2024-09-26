@@ -42,7 +42,7 @@ const NavBar = () => {
           >
             <option value="/" disabled>Select Hotel</option>
             <option value="/admin/02">South Africa's Hotel</option>
-            <option value="/admin/02">Carletonville</option>
+            <option value="/listing/:id">Carletonville</option>
             <option value="/admin/02">JHG</option>
           </select>
         </div>

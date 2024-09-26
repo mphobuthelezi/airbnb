@@ -8,7 +8,7 @@ function Banner() {
     <div className='banner-container'>
       <div className='banner'>
         <img 
-          src="https://s3-alpha-sig.figma.com/img/8021/96a6/83d8b4f496c94cf0a33728d8f6e90e4b?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BGwcCQFp0BIlQUpz4tpEzIBUUxrJQQsryRv6Ol53HIZtdvMGvVJzCYaMsXM4kZRKZdYEo2BYTaKRFfytg2WClYsfY-nuccyc26hWVDFae4h5asTqZRvw5sQ9k38ZoTwZzZpslVZQ3ouafOxuvJ~wrERZnAVZoiyYO895R149g0VjD5FHC1IfoacYxtj0qd26zPQ8AkczKhA0s10pKTwXP9QG7ehio9qsTIkKoTk2FkanLPbv6zenC1nMC7zNJbnAY1rA~t2hiKtSFgeHdpmjcTC1zwexlj2N7g2UF5wnVSl4rSEFfHhwyFXHoVgWhznvO4gpCANbyzxMs0LiFWBE1g__" 
+          src="https://s3-alpha-sig.figma.com/img/8021/96a6/83d8b4f496c94cf0a33728d8f6e90e4b?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AnOVAv2pDqyOqrhEPUrdDKtoHWyFUdW1P4VRti-j4MUEhfdbJsRF21yJRMZeB5UkfLaWTSf-XibJ8ZAZ8BeXFgc2ZNnzLMKzN6C~W6XaRXpyTLAF7oi~lys9OQS4wprn7gDbiqVMwJ6q8wPqbcjXkRnsRJovQSNVstkj1bgrPP6NSO4Knj623uxKral-lUSznfRzWCzLHUcDKI6QQ0mfznUDY9cVAUg3HvBibpswbhPYYG~zwTHR6v19BP9Yn621JBGrVQMQBbhMOpz1JK~3CQkxLvFHMRlZZ85ZyUlp8aOX~k6JUOfy3CMAdUkEYNn8vRgr10oFVaj~detmMWowbQ__" 
           alt="Banner Background" 
           className='banner-image'
         />

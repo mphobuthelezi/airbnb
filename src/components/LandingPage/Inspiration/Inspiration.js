@@ -9,7 +9,7 @@ const Inspiration = () => {
         <h2>Inspiration for your next trip</h2>
         <div className="cards-row">
           <div className="city-card sandton-city">
-            <img src="https://s3-alpha-sig.figma.com/img/d5c1/6cba/8bc1958720a3d767d19d62a93cd1ff30?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C0Lyb4aos8pjrvvRGGzlY~MCbvauii1fp4jtdKLH~WH8FmLZlVs25us7d9AzOnVtaxmGTDAkXmCx1fS-CQzn5sXFBw~EdWDjp6J61G9gkurNMqM5LjhqKdPjB6wmkDscfp-5H8MHCrhnFV68I61IZWGSAP1a27H62nl291wSgxkgzIKAVhI5xBYdkmRnNTIHqQ13zRYoldV-87pPmetQQtRG6NeWO3KfURxRlbWrfLsqYyzb4CC7DGDcVR-qJveugU4oiYgZIRtFCqDClhBddzElphLgTgY1hqW3sWbhzxcJ~HChStJr4VIX4YKlYIHybnwAqw9GVza-mzFlTp0yzw__" alt="Sandton City Hotel" />
+            <img src="https://tse4.mm.bing.net/th?id=OIP.B7dxmANqwiPul56cAeQEuAHaET&pid=Api&P=0&h=220" alt="Sandton City Hotel" />
             <div className="card-info">
               <h3>Sandton City Hotel</h3>
               <p>53 km away</p>
@@ -44,7 +44,7 @@ const Inspiration = () => {
         <h2>Discover Airbnb Experiences</h2>
         <div className="experiences-row">
           <div className="experience-image trip">
-            <img src="https://s3-alpha-sig.figma.com/img/3679/a298/196b41cd98272a64e19b9681beb746f0?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=USUFt7RFGCxZFzXT7ak8kw8iybjikbgLauotqnRCfOdbgGJnAeY8QOK-mV-4DWVV1K9pGt0JZLm~EOdlzeOKdj~T1yymUoFt4I-umCNVfPgDXJHqIO6LC19-9nxFx260ATiTtFNUr1x6-ySktziWnQRF~9di6GfHF7aLhibnBMhvH7DWO0bkbkKnKIHJROUOFe0g7UuAvkmrO5CL4fgHuveSyJ-SK3bbWvq2fEIA7kRPDuXPmrTeH7Brv0HcW5N0v5xe~17nT~Ux6TwZRp8hlwJ06LPx6woPEf0vWgsEPY1xwtsdbhCPqQZAWdsACjGoiwC68uvevcwiu9Dh3zi6lg__" alt="Things to do on your trip" />
+            <img src="https://s3-alpha-sig.figma.com/img/3679/a298/196b41cd98272a64e19b9681beb746f0?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cvv7mwXQUVQlJPhlztIKG9uPAp7-7tdSbUEt1fNS16jtCP9-NoHk2Xs3SHuPmaODtje3o1M-w84BdsJDftFOOpU-1CJasjpr4E2-RXiCFRzAJS-lQn~QFN6Z9EqydRkedQXpKyk2q4VQQ9IossCQHIpj8hYstOUfqrSM7ddyS8jBPN2vWf9imk1bM7ZyG9eRCiVGgcvvwda~judkh0pvTJTrdYO958F1bGHO2trUgHiPgvn2jPip3dcUeyU6r~1bqQk3pt-o5KgxRwE0tEi3GTLoBC~mAjWkOuDMyee5eCN-4jo8EDVECRREQiSqxPL5pyx23mLtQ5Z-A7-DUpnAhw__" alt="Things to do on your trip" />
             <div className="experience-info">
               <h3>Things to do on your trip</h3>
               <button>Experiences</button>
@@ -67,13 +67,13 @@ const Inspiration = () => {
             <p>Shop Airbnb gift cards</p>
             <button>Learn more</button>
           </div>
-          <img src="https://s3-alpha-sig.figma.com/img/43b8/8762/e0a70df6eb554b492d0b7d2633a1ecb1?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oUj~mgbRJOAn-Y~cSQ5nAaD4BFQ~xUFzEIk~GNI7amFNHrqSW~9wCrrflUQjhdiYQwvejAQp4JdjYWoyRAYVaZXBvbwkPLyFq-YUr-3aKUnhoLvkFm077TKbuaHEg2KL0HwuSege8outJs84E9IOX-4LmRoejCA-Kgt3OrXKqvaHG6M550gll5fUCkqL5AwK517tZa8Fr0hMCHmwd8Z-2EG3C~mRHIY6sQt-MH0zNdBawO9zk-HPY81G~Ynd60rk6DXsmmtEJ7qivgr8M80gteiB0RVuVrBzAcEOuShjx-tUYfC5Yi~eZsrvgf-xULQNorSkGaUL0oDHLMFOtD03AQ__" alt="Airbnb gift cards" className="gift-cards-image"/>
+          <img src="https://s3-alpha-sig.figma.com/img/43b8/8762/e0a70df6eb554b492d0b7d2633a1ecb1?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iCwyfJOMxh8OEFVXQyD4~c4x9xsDNL~RCvk~dHsIVI8wN~FDscPyd45sSgqlxD2WB16p~rgd0hsKMBqGd8YzE~5NcRG7ulHK-O65ZYcusuwfP6ckVJbulkCKp~T40KIm5nPOlSBffMSyIFK8G6nb8bzBY6F13NxCiOBThHSgWJU5d-CxZTuXOXcjfAjrmq7lKAYtasIVi0n6ZwRWSN07-aLJ1V2X2ubGXciWWkUpbDz~W6rCiKhz82H~gTO4sZReuIXmiD~GqJqQp2RZcr6tpFdlzT-t8Gvi2~Y~9eUL6JC0QNh~VzS0xOsoSma8TZQtNXRK~34Spjkk2~1WwQjbVQ__" alt="Airbnb gift cards" className="gift-cards-image"/>
         </div>
       </div>
 
       {/* Section 4: Questions about Hosting */}
       <div className="hosting-section">
-        <img src="https://s3-alpha-sig.figma.com/img/5ed8/a779/efd4d7b308f8c6bdd6b801b638cc68d2?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OAAISHTvKj1vizWZn3NY2t6m715640Crb7-s-BgY0jWiJN1v9hv2JYuPJ2kD~vteCtk4Z7nZEHA7cz5DU0SlITCs9oT5fr1Qpf-DZspn5lgcoVK0w3jZGXlk34VZ5U134VAw3IFI9vUz-IMGLyU3gtXz-aez549Uf4gbOFR~Tjg4I0MHrGdidN1NPA53KQq23pBxDTXWMuCbA7RBj~wkefE9SgGP89-nfPM-BPqfxPpTjE9jDJC7h83RKL1769sdd3yo67QdwsJPlfmdO8FIQYftXDX1HRCe6Zp-2vLnQ3tqBvAnvbW2PuU~DNZUgrDgZ8fVnWBzSFtBcZYkIuN0uw__" alt="Questions about hosting?" />
+        <img src="https://s3-alpha-sig.figma.com/img/5ed8/a779/efd4d7b308f8c6bdd6b801b638cc68d2?Expires=1728259200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cMj6Dc95bo9HNXWZP58X~6YsL877v6XYyJDG-eDmZYHN0~gflLOWUNdRWxDORCwDrmXNg6L79qMOjXROEGY18ryGTbvygessAsB1VNyeApEfub6gmG2-KbPySm5s~yj3aYzVv9Tf-V2TGEwoKzOdRM1Mox7-C~nS5zhKo51mjeTFRy47MrsJoJcNRCQK84VZNfJN0fnCNBgL8hsUtNK70QeytzQRfMJvQOisZeUBn6h9xMkgqlLj594q45UbNfOxBnxiTmpM35ZIcA-1ZGC7vu0tXDytCocEJ42EHY5-0zxKK1azPJMi6HrCMqoWVUciSZx4pw~qnEWa62jsZXqppw_" alt="Questions about hosting?" />
         <div className="hosting-content">
           <h4>Questions about hosting?</h4>
           <button>Ask a Superhost</button>
